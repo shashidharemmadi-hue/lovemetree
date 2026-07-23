@@ -1,6 +1,6 @@
 const submit = async () => {
 
-  const res = await fetch("http://localhost:8080/api/calculate",{
+  const res = await fetch("https://lovemetree-1.onrender.com/api/calculate",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
