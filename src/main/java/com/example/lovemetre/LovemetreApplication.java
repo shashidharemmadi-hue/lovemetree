@@ -7,10 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LovemetreApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(LovemetreApplication.class, args);
 		System.out.println("helloworld");
-		;
 	}
-
 }

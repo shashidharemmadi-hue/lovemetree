@@ -52,7 +52,7 @@ async function submitLove(){
         return;
     }
 
-    const res=await fetch("https://lovemetree-1.onrender.com/api/calculate",{
+    const res=await fetch("http://localhost:8080/api/calculate",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"
