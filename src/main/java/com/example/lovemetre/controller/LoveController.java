@@ -19,6 +19,7 @@ public class LoveController {
 
     @PostMapping("/calculate")
     public Map<String, Object> calculate(@RequestBody Submission submission) {
+        System.out.println("into the controller");
 
         SimpleMailMessage mail = new SimpleMailMessage();
 
